@@ -32,7 +32,8 @@ for pokemon in pokemons:
 
 print(heavier_than_ten)
 
-# Ecrire une fonction qui permet de les classer par ordre croissant de poids et afficher le résultat.
+
+# write a function to sort by weight and display
 
 def display_sorted_by_weight(pokemon_list)-> [dict]:
     sorted_pokemons_by_weight:[dict] = sorted(pokemon_list, key=lambda x: get_weight(x['weight']))
