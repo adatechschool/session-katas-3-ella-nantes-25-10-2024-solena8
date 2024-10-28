@@ -42,9 +42,23 @@ def display_sorted_by_weight(pokemon_list):
 
 display_sorted_by_weight(pokemons)
 
-# Etape 3 - Evolution
-# Ecrire une fonction qui permet que pour un Pokemon donné en argument,
-# afficher toutes les évolutions possibles de Pokemon (exemple : Bulbasaur -> Ivysaur -> Venusaur)
+
+# a function to display the evolutions of a pokemon when given the name
+
+def get_evolutions(pokemon_list :[dict], pokemon_name: str):
+    for pokemon in pokemon_list:
+        if pokemon["name"] == pokemon_name:
+            if "next_evolution" in pokemon:
+                evolutions: [dict] = pokemon["next_evolution"]
+                evolutions_str = " -> ".join(evolution["name"] for evolution in evolutions)
+                print(f"{pokemon['name']} -> {evolutions_str}")
+                return
+            else:
+                print(f"{pokemon['name']} does not have evolutions")
+                return
+    print(f"There is no pokemon called {pokemon_name}")
 
 
-def
+get_evolutions(pokemons, "Eevee")
+get_evolutions(pokemons, "Machamp")
+get_evolutions(pokemons, "bipboop")
