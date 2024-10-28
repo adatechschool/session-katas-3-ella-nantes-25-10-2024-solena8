@@ -35,9 +35,16 @@ print(heavier_than_ten)
 
 # write a function to sort by weight and display
 
-def display_sorted_by_weight(pokemon_list)-> [dict]:
+def display_sorted_by_weight(pokemon_list):
     sorted_pokemons_by_weight:[dict] = sorted(pokemon_list, key=lambda x: get_weight(x['weight']))
     for pokemon in sorted_pokemons_by_weight:
         print(pokemon["name"], pokemon["weight"])
 
 display_sorted_by_weight(pokemons)
+
+# Etape 3 - Evolution
+# Ecrire une fonction qui permet que pour un Pokemon donné en argument,
+# afficher toutes les évolutions possibles de Pokemon (exemple : Bulbasaur -> Ivysaur -> Venusaur)
+
+
+def
