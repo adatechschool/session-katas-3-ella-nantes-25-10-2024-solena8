@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da047732-c321-4b5f-a4fa-db58b57f8061" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pokedex_panda.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pokedex.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pokedex.py" afterDir="false" />
     </list>
@@ -35,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.pokedex.executor": "Run",
+    "Python.pokedex_panda.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
